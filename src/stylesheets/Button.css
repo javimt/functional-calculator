@@ -1,0 +1,24 @@
+.button-container{
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgb(16, 33, 4);
+    color: rgb(181, 246, 2);
+    border-radius: 30px;
+    border: 1px solid rgb(187, 212, 3);
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-container:hover{
+    background-color: #065506;
+}
+
+.operator{
+    background: linear-gradient(-45deg, #111811, #0e8f26, #121614, #036217);
+}
